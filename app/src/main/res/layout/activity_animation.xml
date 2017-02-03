@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:text="Top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"/>
+
+    <TextView
+        android:text="Animate this line because its the coolest line ever!  yes it is!!!! FO SHO YO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/label_animate_test"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp"
+        android:background="@android:color/holo_blue_bright"/>
+
+    <TextView
+        android:text="Bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:text="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_animate_test1"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:text="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_animate_test2"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:text="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_animate_test3"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:text="4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_animate_test4"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:text="5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_animate_test5"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:text="6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_animate_test6"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:text="7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_animate_test7"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:text="8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_animate_test8"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:text="9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_animate_test9"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
